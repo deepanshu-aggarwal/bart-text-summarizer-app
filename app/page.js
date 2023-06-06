@@ -4,12 +4,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function Home() {
-  const exampleText = `According to RapidAPI’s recent State of APIs Developer survey, API usage continues to skyrocket, with more than 90.6% of developers
-  indicating that they will use APIs more or the same in 2022 as they did in 2021. Additionally, a majority (75.5%) of developers indicated that participating in the API economy is a top priority for their organization now or in the near future.
-   As companies begin to accelerate the transition to digital channels and invest in software development to enable that transition, APIs have become increasingly important in enabling developers to build innovative software more rapidly.
-  The increasing demand for APIs has led to the widespread usage of RapidAPI Hub, the world’s largest API Hub, where over 3 million developers discover and connect to APIs.
-  RapidAPI’s largest enterprise customers leverage the RapidAPI Enterprise Hub – a private, customizable version of the public hub – to create a centralized
-    repository of APIs and provide a governance layer for API activity in the organization. RapidAPI Enterprise Hub provides organizations with a single place for all APIs, including any API type, any API category, and across any API infrastructure.`;
+  const exampleText = `Text summarization is a very useful and important part of Natural Language Processing (NLP). First let us talk about what text summarization is. Suppose we have too many lines of text data in any form, such as from articles or magazines or on social media. We have time scarcity so we want only a nutshell report of that text. We can summarize our text in a few lines by removing unimportant text and converting the same text into smaller semantic text form.`;
 
   const [text, setText] = useState(exampleText);
   const [response, setResponse] = useState("");
