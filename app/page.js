@@ -4,7 +4,12 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function Home() {
-  const exampleText = `Text summarization is a very useful and important part of Natural Language Processing (NLP). First let us talk about what text summarization is. Suppose we have too many lines of text data in any form, such as from articles or magazines or on social media. We have time scarcity so we want only a nutshell report of that text. We can summarize our text in a few lines by removing unimportant text and converting the same text into smaller semantic text form.`;
+  const exampleText = `Five days after a deadly three-train crash killed 288 people in India, more than 80 bodies remain unclaimed.
+The crash on Friday evening in the state of Odisha involved two passenger trains and a stationary goods train.
+More than 1,000 injured were taken to hospitals for treatment. Many families say they are still looking for loved ones.
+The deadly collision is India's worst rail accident this century.
+On Tuesday, Odisha's chief secretary Pradeep Jen said the official death toll rose to 288 from the previous figure of 275 while 83 bodies remained unidentified.
+The crash saw a passenger train derail after wrongly entering into a loop track by the side of the main line and colliding with a stationary goods train that was parked there. Its derailed carriages then struck the rear coaches of a second passenger train going in the opposite direction.`;
 
   const [text, setText] = useState(exampleText);
   const [response, setResponse] = useState("");
